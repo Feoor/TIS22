@@ -1,20 +1,27 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    color: rgb(105, 48, 48);
+}
+
 h2, h3 {
     text-align: center;
 }
 
 .my-fridge-container {
     display: flex;
+    padding: 100px;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
 .fruit-block {
+    background-color: #E0CFB1;
     text-align: center;
     margin-left: 25px;
     margin-bottom: 25px;
     padding: 25px;
-    border: 1px solid rgb(80, 80, 80);
     border-radius: 28px;
 }
 
