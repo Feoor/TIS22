@@ -1,0 +1,31 @@
+h2, h3 {
+    text-align: center;
+}
+
+.my-fridge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.fruit-block {
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 28px;
+}
+
+.fruit-block img {
+    width: 100px;
+}
+
+hr {
+    width: 86%;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
